@@ -11,7 +11,7 @@ A C++ interface to the ICM-20948
 #include "util/AK09916_REGISTERS.h"
 
 #include "Arduino.h" // Arduino support
-#include "Wire.h"
+#include <Wire.h>
 #include "SPI.h"
 
 #define ICM_20948_ARD_UNUSED_PIN 0xFF
